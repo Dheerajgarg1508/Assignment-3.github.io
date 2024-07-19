@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css\campaign.css">
+
+	<title>Chocolate</title>
+	
+</head>
+
+
+<body class="background">
+		<iframe src="menu.html" width="100%" style="border:none;height: 110px;"></iframe>
+	<center>
+				<h1 style="font-family: 'Parisienne', cursive; text-shadow: 2px 2px white; " class="m-5"><b>Lindt</b> - Master chocolatier since 1845</h1>
+		<img src="img\header.png" width="650"height = "600" style="padding-bottom: 40px; border-style: hidden;margin-bottom: 10%;" >
+	</center>
+	
+	<div class="container">
+		<h4 style="text-align: center;" class= "m-5" >Lindt Chocolate Consumer Satisfaction Study</h4>
+		<p style="font-size: 18px" class="pt-4"><b>Lindt & Sprüngli</b> is the undisputed leader in the premium chocolate market, offering a wide variety of products in over 100 countries around the world. In its more than 160 years of existence, Lindt & Sprüngli has come to be known as one of the most innovative and creative companies producing premium chocolate, having 6 factories in Europe, 2 in the United States of America and distribution and sales points on 4 continents. The beginning of the Lindt & Sprüngli company dates back to 1845. From then until now, many changes have taken place in the company, but the entrepreneurial spirit and passion for chocolate manufacturing that characterized both the Sprüngli family and Rudolph Lindt have remained the same. </p>
+		<br>
+		<br>
+		<h6> Please complete this questionnaire in order to give us an impression of the level of consumer satisfaction with Lindt chocolate.<br>
+		Va multumim!</h6>
+		<p><i>(Fields marked with are mandatory).</i></p>
+		<br>
+		<form>
+
+			<p>1. Are you a Lindt chocolate consumer? *</p>
+
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="consumer" id="idYes" value="answer-yes">
+				<label class="form-check-label" for="idYes">
+					yes
+				</label>
+			</div>
+			
+
+
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="consumer" id="idNo" value="answer-no">
+				<label class="form-check-label" for="idNo">
+					no
+				</label>
+			</div>
+			
+			<br>	
+
+			<div class="form-group">
+				<label for="brand">2. What is your preferred chocolate brand? *</label>
+				<select class="form-control" id="brand">
+					<option value="Lindt">Lindt</option>
+					<option value="Toblerone">Toblerone</option>
+					<option value="Heidi">Heidi</option>
+					<option value="Rafaello">Rafaello</option>
+					<option value="Kinder">Kinder</option>
+					<option value="Milka">Milka</option>
+					<option value="Novatini">Novatini</option>
+					<option value="Primola">Primola</option>
+				</select>
+			</div>
+			
+			<label>3. Where do you usually buy Lindt chocolate?</label>
+<br>
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="supermarket" id="supermarket">
+    <label class="form-check-label" for="supermarket">
+        Supermarket
+    </label>
+</div>
+
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="hypermarket" id="hypermarket">
+    <label class="form-check-label" for="hypermarket">
+        Hypermarket
+    </label>
+</div>
+
+
+
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="store" id="store">
+				<label class="form-check-label" for="store">
+					Grocery store
+				</label>
+			</div>
+			
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="confectionery" id="confectionery">
+				<label class="form-check-label" for="confectionery">
+					Confectionery
+				</label>
+			</div>
+			<br>
+			
+			
+
+			<div class="form-group">
+				<label class="my-1 mr-2" for="inlineFormCustomSelectPref">4. On a scale from 1 (min) to 5 (max), which do you think is the most famous chocolate brand in Romania? *</label>
+				<div class="form-group">
+					<table class="table table-bordered table-sm">
+						<thead>
+
+							<tr style="text-align: center;">
+								<th scope="col"></th>
+								<th scope="col">1</th>
+								<th scope="col">2</th>
+								<th scope="col">3</th>
+								<th scope="col">4</th>
+								<th scope="col">5</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><center>Lindt</center></td>
+								<td><center><input  type="radio" name="Lindt" id="Lindt-1" value="Lindt-1"></center></td>
+								<td><center><input  type="radio" name="Lindt" id="Lindt-2" value="Lindt-2"></center></td>
+								<td><center><input  type="radio" name="Lindt" id="Lindt-3" value="Lindt-3"></center></td>
+								<td><center><input  type="radio" name="Lindt" id="Lindt-4" value="Lindt-4"></center></td>
+								<td><center><input  type="radio" name="Lindt" id="Lindt-5" value="Lindt-5"></center></td>
+							</tr>
+							<tr>
+								<td><center>Milka</center></td>
+								<td><center><input  type="radio" name="Milka" id="Milka-1" value="Milka-1"></center></td>
+								<td><center><input  type="radio" name="Milka" id="Milka-2" value="Milka-2"></center></td>
+								<td><center><input  type="radio" name="Milka" id="Milka-3" value="Milka-3"></center></td>
+								<td><center><input  type="radio" name="Milka" id="Milka-4" value="Milka-4"></center></td>
+								<td><center><input  type="radio" name="Milka" id="Milka-5" value="Milka-5"></center></td>
+							</tr>
+							<tr>
+								<td><center>Kinder</center></td>
+								<td><center><input  type="radio" name="Kinder" id="Kinder-1" value="Kinder-1"></center></td>
+								<td><center><input  type="radio" name="Kinder" id="Kinder-2" value="Kinder-2"></center></td>
+								<td><center><input  type="radio" name="Kinder" id="Kinder-3" value="Kinder-3"></center></td>
+								<td><center><input  type="radio" name="Kinder" id="Kinder-4" value="Kinder-4"></center></td>
+								<td><center><input  type="radio" name="Kinder" id="Kinder-5" value="Kinder-5"></center></td>	
+							</tr>
+
+							<tr>
+								<td><center>Rafaello</center></td>
+								<td><center><input  type="radio" name="Rafaello" id="Rafaello-1" value="Rafaello-1"></center></td>
+								<td><center><input  type="radio" name="Rafaello" id="Rafaello-2" value="Rafaello-1"></center></td>
+								<td><center><input  type="radio" name="Rafaello" id="Rafaello-3" value="Rafaello-1"></center></td>
+								<td><center><input  type="radio" name="Rafaello" id="Rafaello-4" value="Rafaello-1"></center></td>
+								<td><center><input  type="radio" name="Rafaello" id="Rafaello-5" value="Rafaello-1"></center></td>
+							</tr>
+							<tr>
+								<td><center>Toblerone</center></td>
+								<td><center><input  type="radio" name="Toblerone" id="Toblerone-1" value="Toblerone-1"></center></td>
+								<td><center><input  type="radio" name="Toblerone" id="Toblerone-2" value="Toblerone-2"></center></td>
+								<td><center><input  type="radio" name="Toblerone" id="Toblerone-3" value="Toblerone-3"></center></td>
+								<td><center><input  type="radio" name="Toblerone" id="Toblerone-4" value="Toblerone-4"></center></td>
+								<td><center><input  type="radio" name="Toblerone" id="Toblerone-5" value="Toblerone-5"></center></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+
+
+				<br>
+				<div class="form-group">
+					<label class="my-1 mr-2" for="inlineFormCustomSelectPref">5. How much chocolate do you eat in a week? *</label>
+					<select class="custom-select my-1 mr-sm-2" id="cantitateConsumator">
+						<option selected>Choose...</option>
+                        <option value="1">50 grams</option>
+                        <option value="2">100 grams</option>
+                        <option value="3">Between 100 and 500 grams</option>
+                        <option value="4">More than 500 grams</option>
+                        <option value="5">None</option>
+
+					</select>
+				</div>
+				<br>
+
+				<p> 6. What do you think of Lindt chocolate packaging? *</p>
+				<div class="form-group">
+					<table class="table table-bordered table-sm">
+						<thead>
+							<tr style="text-align: center;">
+								<th scope="col">Very Bad</th>
+								<th scope="col">Bad</th>
+							<th scope="col">Satisfactory</th>
+								<th scope="col">Hello</th>
+								<th scope="col">Very good</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><center><input  type="radio" name="packaging" id="very-stupid" value="very-stupid"></center></td>
+								<td><center><input  type="radio" name="packaging" id="stupid" value="stupid"></center></td>
+								<td><center><input  type="radio" name="packaging" id="satisfactory" value="satisfactory"></center></td>
+								<td><center><input  type="radio" name="packaging" id="good" value="good"></center></td>
+								<td><center><input  type="radio" name="packaging" id="very-good" value="very-good"></center></td>
+							</tr>
+
+						</tbody>
+
+					</table>
+				</div>
+				<p class="mt-5"> 7. What will make you choose a particular brand of chocolate? *</p>
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="gustul" id="idpackaging" value="answer-the packaging">
+					<label class="form-check-label" for="idpackaging">
+						packaging
+					</label>
+				</div>
+
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="gustul" id="idadvertising" value="answer-the advertisement" >
+					<label class="form-check-label" for="idadvertising">
+						advertisement
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="gustul" id="idtaste" value="answer-taste">
+					<label class="form-check-label" for="idtaste">
+						taste
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="gustul" id="idPrice" value="answer-price" >
+					<label class="form-check-label" for="idPrice">
+					Price
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="gustul" id="idAnother" value="answer-another" >
+					<label class="form-check-label" for="idAnother">
+						Other reasons (please specify)
+					</label>
+				</div>
+				<br>
+
+				<div class="form-group">
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+				</div>
+				<br>
+
+				<div class="form-group">
+					<label class="mb-4">8. What other chocolate brands do you prefer? *</label>
+					<div class="form-group row">
+						<label for="cioco1" class="col-sm-2 col-form-label">Brand number1 </label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="cioco1">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="cioco2" class="col-sm-2 col-form-label">Brand number 2</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="cioco2">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="cioco3" class="col-sm-2 col-form-label">Brand number 3</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="cioco3">
+						</div>
+					</div>
+				</div>
+				<br>
+
+
+				<label> 9. How do you usually eat your favorite chocolate, Lindt? *</label>
+				<br>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="Single" id="Single">
+					<label class="form-check-label" for="Single">
+						Single
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="with-family" id="with-family">
+					<label class="form-check-label" for="with-family">
+						with family
+					</label>
+				</div>
+
+
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="with the colleagues" id="with the colleagues">
+					<label class="form-check-label" for="with the colleagues">
+						with the colleagues
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="with friends" id="with friends">
+					<label class="form-check-label" for="with friends">
+						with friends
+					</label>
+				</div>
+				<br>
+				<p>10. How much money($) do you usually pay for a chocolate? </p>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="suma" id="suma1" value = "suma1">
+					<label class="form-check-label" for="suma1">
+						Between 2 and 3
+					</label>
+					<br>
+					<input class="form-check-input" type="radio" name="suma" id="suma2" value = "suma2">
+					<label class="form-check-label" for="suma2">
+						Between 3 and 4
+					</label>
+					<br>
+					<input class="form-check-input" type="radio" name="suma" id="suma3" value = "suma3">
+					<label class="form-check-label" for="suma3">
+						Between 5 and 6
+					</label>
+					<br>
+					<input class="form-check-input" type="radio" name="suma" id="suma4" value = "suma4">
+					<label class="form-check-label" for="suma4">
+						Over 10 
+					</label>
+				</div>
+				<br>
+				
+
+
+				<p>11. What income bracket do you fall into? * </p>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name = "consumator" value="sub1000" id="idsub1000">
+					<label class="form-check-label" for="idsub1000">
+						Under 1000 $/month
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="consumator" id="id1000-2000" value="1000-2000">
+					<label class="form-check-label" for="id1000-2000">
+						Under 2000 $/month
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="consumator" id="id2000-3000" value="2000-3000">
+					<label class="form-check-label" for="id2000-3000">
+						Under 3000 $/month
+					</label>
+				</div>
+
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="consumator" id="idpeste3000" value="peste3000">
+					<label class="form-check-label" for="idpeste3000">
+						Under 5000 $/month
+					</label>
+				</div>
+				<br>
+
+
+				<p>12. Your gender: *</p>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="female" value = "female-val">
+					<label class="form-check-label" for="female">
+						Female
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="exampleRadios" id= "male" value = "male-val">
+					<label class="form-check-label" for="male">
+						Male
+					</label>
+				</div>	
+				<br>
+				<br>
+
+				<center><button type="button" class="btn btn-outline-secondary" onclick="sendFormular()">Send</button></center>
+			</form>
+
+			
+
+
+		</div>
+		<script type="text/javascript">
+			
+
+			function sendFormular() {
+				location.replace("multumiri.html");
+			}
+		</script>
+
+</body>
+</html>

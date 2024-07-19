@@ -1,0 +1,19 @@
+
+.background {
+	background: #bb978a7a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffc10754, #bb978a7a);  
+	background: linear-gradient(to right, #ffc10754, #bb978a7a); 
+}
+
+.col {
+	text-align: center;
+
+}
+
+.container {
+	border-radius: 25px;
+}
+
+.text-style {
+	font-family:  'OptimaLight';
+}
